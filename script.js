@@ -13,7 +13,7 @@ document.getElementById("address-form").addEventListener("submit", function (e) 
     ${lines
       .filter(line => line.trim() !== "")
       .map((line, i) => 
-        `<text x="10" y="${30 + i * 30}" font-family="monospace" font-size="20">${line}</text>`
+        <text x="10" y="${30 + i * 30}" font-family="'Patrick Hand', cursive" font-size="20">
       ).join("\n")}
   </svg>`;
 
