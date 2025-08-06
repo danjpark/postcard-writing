@@ -21,3 +21,11 @@ document.getElementById("address-form").addEventListener("submit", function (e) 
 
   // Later: convert SVG to G-code here
 });
+
+document.getElementById("autofill").addEventListener("click", () => {
+  document.getElementById("first-name").value = "John";
+  document.getElementById("last-name").value = "Smith";
+  document.getElementById("address1").value = "123 Main St";
+  document.getElementById("address2").value = "Unit 35A";
+  document.getElementById("citystatezip").value = "Philadelphia, PA 19103";
+});
